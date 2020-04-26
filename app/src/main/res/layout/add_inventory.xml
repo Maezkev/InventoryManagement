@@ -27,7 +27,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <EditText
-        android:id="@+id/inventoryname_txt"
+        android:id="@+id/InventoryName_Txt"
         android:layout_width="236dp"
         android:layout_height="43dp"
         android:layout_marginTop="32dp"
@@ -40,13 +40,13 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/addinventory_button"
+        android:id="@+id/SubmitAddInventory_Button"
         android:layout_width="0dp"
         android:layout_height="52dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:backgroundTint="#3F51B5"
-        android:text="Add Inventory"
+        android:text="Submit"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -61,10 +61,10 @@
         android:text="Owner Name"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/inventoryname_txt" />
+        app:layout_constraintTop_toBottomOf="@+id/InventoryName_Txt" />
 
     <EditText
-        android:id="@+id/ownername_txt"
+        android:id="@+id/OwnerName_Txt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -77,15 +77,15 @@
         app:layout_constraintTop_toTopOf="@+id/textView" />
 
     <EditText
-        android:id="@+id/yearbuy_text"
+        android:id="@+id/YearBuy_Txt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="Year Buy"
         android:inputType="date"
         app:layout_constraintBottom_toBottomOf="@+id/textView3"
-        app:layout_constraintEnd_toEndOf="@+id/ownername_txt"
-        app:layout_constraintStart_toStartOf="@+id/ownername_txt"
+        app:layout_constraintEnd_toEndOf="@+id/OwnerName_Txt"
+        app:layout_constraintStart_toStartOf="@+id/OwnerName_Txt"
         app:layout_constraintTop_toTopOf="@+id/textView3" />
 
     <TextView
@@ -95,7 +95,7 @@
         android:text=":"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/textView"
-        app:layout_constraintEnd_toStartOf="@+id/ownername_txt"
+        app:layout_constraintEnd_toStartOf="@+id/OwnerName_Txt"
         app:layout_constraintStart_toEndOf="@+id/textView"
         app:layout_constraintTop_toTopOf="@+id/textView" />
 
