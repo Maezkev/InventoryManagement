@@ -15,7 +15,7 @@ class AddInventoryActivity: AppCompatActivity() {
 
         val Database_Val = getSharedPreferences("Inventory_Db", Context.MODE_PRIVATE)
         Database_Val.edit().apply {
-            
+
         }
     }
 }
